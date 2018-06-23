@@ -1,0 +1,45 @@
+#clients{
+  hr{
+    @extend %hrs;
+
+  }
+  h3{
+    @extend %h3s;
+  }
+  .carousel-indicators li {
+
+    width: 10px;
+    height: 10px;
+   border: 1px solid $basic;
+    border-radius: 10px;
+  }
+
+  .carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: $basic;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 20%;
+  border: 2px solid $basic;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: $basic;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: $basic;
+}
+}

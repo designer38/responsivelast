@@ -1,0 +1,32 @@
+#testmonials{
+  background-image: url("bg-testimonials.jpg");
+  background-size: cover;
+  hr{
+    @extend %hrs;
+
+  }
+  p{
+    color:white;
+  }
+  h3{
+    @extend %h3s;
+    color:white;
+
+  }
+  img{
+    width:200px;
+    height: 200px;
+  }
+  #testmonial-cover{
+    background-image: url("bg-testimonials.jpg");
+    background-size: cover;
+  }
+
+
+
+.carousel-indicators li {
+width: 10px;
+height: 10px;
+border-radius: 100%;
+}
+}

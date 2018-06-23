@@ -1,0 +1,37 @@
+/*=============================================
+content ceneric
+=============================================*/
+#services{
+  p{
+    @extend %contents;
+  }
+  .content-box{
+  padding:60px 0 60px 0;
+}
+.content-title h3{
+  font-size: 30px;
+  font-weight: 700;
+  margin:0 0 30px 0;
+}
+.home-hr{
+@extend %hrs;
+}
+.service-item{
+  padding:20px 0 20px 0;
+  margin-bottom: 20px;
+  cursor:pointer;
+}
+.service-item-icon i{
+  color:$basic;
+  padding:15px;
+  float: left;
+  margin-right: 30px;
+}
+.service-item:hover .service-item-icon i{
+  background-color: $basic;
+  color: #fff;
+}
+.service-item-title h3{
+  font-size: 20px;
+}
+}

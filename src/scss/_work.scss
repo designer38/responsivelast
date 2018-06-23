@@ -1,0 +1,43 @@
+#work{
+  hr{
+    @extend %hrs;
+  }
+  h3{
+    @extend %h3s;
+
+  }
+.imagewrapper{
+position:relative;
+  width:540px;
+  overflow: hidden;
+i{
+  display:none;
+  position: absolute;
+font-size: 50px;
+    left: 0;
+
+text-align: center;
+    bottom:150px;
+    right: 0;
+    margin: auto;
+}
+ img{
+
+   height:300px;
+   max-width: 100%;
+-moz-transition: all 0.3s;
+ -webkit-transition: all 0.3s;
+ transition: all 0.3s;
+  }
+
+}
+.imagewrapper:hover img{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.imagewrapper:hover img+i{
+  display: block;
+   z-index: 500;
+}
+}

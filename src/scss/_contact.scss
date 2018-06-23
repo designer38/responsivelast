@@ -1,0 +1,32 @@
+#contact{
+  background-color: #41464b;
+  padding:30px;
+  border-top: 5px solid rgba(0,0,0,0.1);
+  color:white;
+  .left-cover{
+    background-image: url("world_map_PNG28.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+
+  h3{
+    @extend %h3s;
+
+  }
+  i{
+    color:gray;
+  }
+  form .form-control{
+    border-radius: 0;
+    background-color: transparent;
+    border-color: #fff;
+  padding:8px 16px;
+  margin-bottom: 20px;
+  }
+  .send-btn{
+    @extend %whitebtn;
+  }
+  .send-btn:hover,.send-btn:focus{
+    @extend %hover;
+  }
+}
